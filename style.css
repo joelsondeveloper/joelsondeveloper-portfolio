@@ -62,7 +62,7 @@ body, html {
 
 }
 .direito:hover {
-    background-image: url(img/joelson1.png);
+    background-image: url(portfolio/img/joelson1.png);
     opacity: 70%;
     background-size: 75%;
     background-repeat: no-repeat;
