@@ -1,0 +1,166 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  
+  background-color: black;
+  background-size: contain;
+  cursor: url('../cursor/cursor1.png') 0 0, auto;
+}
+.apres2, .apres1{
+  text-align: center;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;;
+  font-size: 50px;
+  transition: font-size 0.3s;
+}
+.apres2:hover, .apres1:hover{
+  text-align: center;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;;
+  font-size: 60px;
+}
+.apres{
+  display: flex;
+  margin-top: 200px;
+  
+  flex-direction: column;
+}
+.apres1{
+    color: white;
+    margin: 0 0 5px 0
+    
+}
+.apres2{
+  color: #4169E1;
+}
+.apres3{
+  display: none;
+}
+.apres4{
+  color: white;
+  animation: piscar 1.8s infinite;
+  
+}
+.apres6{
+  color: white;
+  font-family: 'Rubik', sans-serif;
+
+}
+.body1{
+    display: block; 
+  justify-content: center; 
+  
+ 
+  background-color: black
+  ;
+}
+.perfil{
+  background-image: url(../img/joelson1.png);
+  width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+  border-radius: 50%; /* Torna a imagem redonda */
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  top: 20px; /* Define a distância do topo */
+  right: 20px;
+  position: fixed;
+  transition: width 0.3s;
+  transition: height 0.3s;
+}
+.perfil:hover{
+  background-image: url(../img/joelson1.png);
+  width: 90px; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 90px; /* Ajuste o tamanho da imagem conforme necessário */
+  border-radius: 50%; /* Torna a imagem redonda */
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  top: 15px; /* Define a distância do topo */
+  right: 15px;
+  position: fixed;
+}
+@keyframes piscar {
+  0% {
+      opacity: 1;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+.biografia2{
+  margin-top: 400px;
+  text-align: center;
+  margin-left: 17vw;
+  margin-right: 17vw;
+  animation: fadeIn 1s ease forwards;
+
+}
+p{
+  margin-bottom: 60px;
+  line-height: 3vw;
+  font-size: 2vw;
+}
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+a{
+  cursor: url('../cursor/cursor.png') 0 0, auto;
+}
+.hards{
+  font-family: 'Rubik', sans-serif;
+  
+  align-items: center;
+  margin-top: 40vw;
+
+}
+.tilhards{
+  display: block;
+  text-align: center;
+}
+.subhards1{
+  color: white;
+  margin-right: 1vw;
+  
+}
+.subhards2{
+  color: #4169E1;
+}
+.competencias{
+  text-align: center;
+  
+}
+h3{
+  margin-top: 10vw;
+  color: white;
+  text-align: center;
+}
+.tilform1{
+  color: white;
+}
+.tilform2{
+  color: #4169E1;
+}
+.form{
+  display: block;
+  text-align: center;
+}
+.tilfor{
+  color: white;
+  text-align: center;
+  margin-top: 15vw;
+}
+.curso{
+  color: #4169E1;
+  text-align: center;
+}

@@ -1,0 +1,89 @@
+html,body{
+    background-color: black;
+    display: block;
+    align-items: center;
+    cursor: url('../cursor/cursor1.png') 0 0, auto;
+
+}
+.titulo{
+    color: white;
+    justify-content: center;
+    margin-top: 20vw;
+    display: flex;
+   
+
+}
+.titulo1{
+    display: flex;
+}
+@media (max-width: 490px) {
+    .titulo1 {
+         /* As frases ocupam toda a largura da tela */
+        display: block; /* As frases não ficam mais lado a lado */
+        /* Você pode adicionar mais estilos, como margem ou espaçamento entre as frases, se desejar */
+    }
+}
+.h11{
+    margin-right: 1vw;
+    font-family: 'Rubik', sans-serif;
+}
+.h12{
+    color: #0066CC;
+    font-family: 'Rubik', sans-serif;
+}
+.perfil{
+    background-image: url(../img/joelson1.png);
+    width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%; /* Torna a imagem redonda */
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    top: 20px; /* Define a distância do topo */
+    right: 20px;
+    position: fixed;
+    transition: width 0.3s;
+    transition: height 0.3s;
+  }
+.perfil:hover{
+    background-image: url(../img/joelson1.png);
+    width: 90px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 90px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%; /* Torna a imagem redonda */
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    top: 15px; /* Define a distância do topo */
+    right: 15px;
+    position: fixed;
+  }
+.a1{
+    height: 30vw;
+    width: 30vw;
+    background-color: #111111;
+    margin-top: 30vw;
+    margin-left: 34vw;
+    margin-bottom: 10vw;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    cursor: url('../cursor/cursor.png') 0 0, auto;
+  }
+a{
+    text-decoration: none;
+    cursor: url('../cursor/cursor.png') 0 0, auto;
+}
+h2{
+    font-size: 3vw;
+}
+h4{
+    font-size: 1.5vw;
+}
+.img{
+    height: 50%;
+    background-image: url(#);
+    background-color: #333333;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border-radius: 10px;
+}

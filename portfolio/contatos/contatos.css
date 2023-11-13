@@ -1,0 +1,57 @@
+html, body{
+    background-color: black;
+    cursor: url('../cursor/cursor1.png') 0 0, auto;
+}
+.div{
+    display: block;
+}
+.titulo{
+    color: white;
+    text-align: center;
+    margin-top: 20vw;
+    font-family: 'Rubik', sans-serif;
+
+}
+.h12{
+    color: #4169E1;
+}
+.perfil{
+    background-image: url(../img/joelson1.png);
+    width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%; /* Torna a imagem redonda */
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    top: 20px; /* Define a distância do topo */
+    right: 20px;
+    position: fixed;
+    transition: width 0.3s;
+    transition: height 0.3s;
+   
+    
+  }
+  .perfil:hover{
+    background-image: url(../img/joelson1.png);
+    width: 90px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 90px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%; /* Torna a imagem redonda */
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    top: 15px; /* Define a distância do topo */
+    right: 15px;
+    position: fixed;
+  }
+  h2{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-align: justify;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 30vw;
+    margin-bottom: 20vw;
+  }
+  a{
+    text-decoration: none;
+  }

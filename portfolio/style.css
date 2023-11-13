@@ -1,0 +1,151 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    background-size: contain;
+    cursor: url('cursor/cursor1.png') 0 0, auto;
+
+    
+}
+.html{
+    cursor: url('cursor/cursor1.png') 12 12, auto;
+}
+.container{
+    display: flex;
+    
+}
+
+.esquerdo, .direito {
+    flex: 1;
+    height: 100vh;
+}
+
+.esquerdo {
+    
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(30, end) infinite;
+    border-right: .15em solid;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Defina a altura desejada para a div pai */
+    flex-direction: column;
+    
+}
+.esquerdo:hover {
+    
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(30, end) infinite;
+    border-right: .15em solid;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Defina a altura desejada para a div pai */
+    flex-direction: column;
+    
+    
+}
+
+.direito {
+    background-image: url(img/joelson1.png);
+    opacity: 60%;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation: fade-in 20ms ease-in-out;
+    transition-duration: 0.2s;
+
+}
+.direito:hover {
+    background-image: url(img/joelson1.png);
+    opacity: 70%;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition-duration: 0.2s;
+}
+@keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 60%;
+    }
+  }
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+.text {
+    display: inline-block;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 3.6vw;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Young Serif', serif;
+    
+}
+.text1 {
+    display: inline-block;
+    color: #0066CC;
+    margin-bottom: 20px;
+    font-size: 4.4vw;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Young Serif', serif;
+    
+}
+.text2 {
+    display: inline-block;
+    color: #00CED1;
+    margin-bottom: 20px;
+    font-size: 2vw;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Young Serif', serif;
+    
+}
+.text:hover {
+    display: inline-block;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 4.4vw;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Young Serif', serif;;
+    
+}
+.text1:hover {
+    display: inline-block;
+    color: #0066CC;
+    margin-bottom: 20px;
+    font-size: 5.2vw;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Young Serif', serif;;
+}
+.text2:hover {
+    display: inline-block;
+    color: #00CED1;
+    margin-bottom: 20px;
+    font-size: 2.8vw;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Young Serif', serif;;
+}
+.text:hover,.text1:hover,.text2:hover{
+    cursor: url('cursor/cursor.png') 0 0, auto;
+}
+.text,.text1,.text2{
+    cursor: url('cursor/cursor.png') 0 0, auto;
+}
