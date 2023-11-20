@@ -47,11 +47,36 @@ html, body{
     color: white;
     font-family: 'Rubik', sans-serif;
     text-align: justify;
-    margin-left: 15vw;
+    margin-left: 5vw;
     margin-right: 15vw;
+  }
+  .textdescr{
     margin-top: 30vw;
+    
     margin-bottom: 20vw;
   }
   a{
     text-decoration: none;
+    display: flex;
+  }
+  .github{
+    background-image: url(./github.png);
+    background-size: cover;
+    height: 10vh;
+    width: 5vw;
+    margin-left: 15vw;
+  }
+  .linkedin{
+    background-image: url(./linkedin.png);
+    background-size: cover;
+    height: 7.35vh;
+    width: 3.5vw;
+    margin-left: 15vw;
+  }
+  .links{
+    display: flex;
+    height: 10vh;
+  }
+  .link1, .link2{
+    height: 10vh;
   }

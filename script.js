@@ -96,7 +96,7 @@ setTimeout(function() {
             restoreOriginalPhrase("text2");
         });
     }
-}, 10000);
+}, 5000);
 
 // Função para alternar todas as frases permanentemente após 8 segundos se não houver suporte para mouse
 function togglePhrasesPermanent() {
@@ -130,5 +130,5 @@ if (isTouchDevice()) {
     // Se for touchscreen, aguarde 10 segundos e depois redirecione o usuário para outro arquivo HTML na mesma pasta
     setTimeout(function() {
         window.location.href = 'index1.html';
-    }, 10000); // 10000 milissegundos = 10 segundos
+    }, 5000); // 10000 milissegundos = 10 segundos
 }
