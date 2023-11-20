@@ -68,21 +68,31 @@ html,body{
     text-align: center;
     color: white;
     cursor: url('../cursor/cursor.png') 0 0, auto;
+    transition: 0.5s;
+  }
+  .a1:hover{
+    height: 35vw;
+    width: 35vw;
+    margin-top: 28vw;
+    margin-left: 32vw;
   }
 a{
     text-decoration: none;
     cursor: url('../cursor/cursor.png') 0 0, auto;
 }
 h2{
-    font-size: 3vw;
+    font-size: 2vw;
+    font-family: 'Rubik', sans-serif;
 }
 h4{
-    font-size: 1.5vw;
+    font-size: 1vw;
+    font-family: 'Rubik', sans-serif;
 }
 .img{
     height: 50%;
-    background-image: url(#);
+    background-image: url(./projetos/lista\ de\ compras/lista.png);
     background-color: #333333;
+    background-size: cover;
     margin-left: 2vw;
     margin-right: 2vw;
     border-radius: 10px;
