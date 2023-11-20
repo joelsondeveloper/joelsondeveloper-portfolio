@@ -12,5 +12,5 @@ if (isTouchDevice()) {
 else {
     setTimeout(function() {
         window.location.href = 'index2.html';
-    }, 5000);
+    }, 10000);
 }
