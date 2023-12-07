@@ -56,8 +56,8 @@ body, html {
 }
 .perfil{
   background-image: url(../img/joelson1.png);
-  width: 80px; /* Ajuste o tamanho da imagem conforme necessário */
-  height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+  width: 15vw; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 15vw; /* Ajuste o tamanho da imagem conforme necessário */
   border-radius: 50%; /* Torna a imagem redonda */
   background-size: cover;
   overflow: hidden;
@@ -70,8 +70,8 @@ body, html {
 }
 .perfil:hover{
   background-image: url(../img/joelson1.png);
-  width: 90px; /* Ajuste o tamanho da imagem conforme necessário */
-  height: 90px; /* Ajuste o tamanho da imagem conforme necessário */
+  width: 18vw; /* Ajuste o tamanho da imagem conforme necessário */
+  height: 18vw; /* Ajuste o tamanho da imagem conforme necessário */
   border-radius: 50%; /* Torna a imagem redonda */
   background-size: cover;
   overflow: hidden;
